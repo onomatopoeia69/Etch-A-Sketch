@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&family=Dancing+Script:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Playwrite+HU:wght@100..400&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial;
+}
+
+
+.title-wrapper{
+
+    margin-top: 10px;
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    font-family: 'Dancing Script', Arial;
+}
+
+
+.grid-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 400px; 
+  height: 400px;
+  border: 4px solid black;
+  
+}
+
+.grid-wrapper div {
+  box-sizing: border-box; 
+}
+
+.options-btn{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+
+
+#black-btn.active {
+
+  border-color: aqua;
+
+}
+
+#rndmClrBtn.active {
+
+  border-color: aqua;
+
+}
+
+#colorPicker.active {
+
+border-color: aqua;
+
+}
+
+footer {
+  background-color: #333;  
+  color: white;                
+  text-align: center;           
+  position: fixed;               
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 100%;               
+}
