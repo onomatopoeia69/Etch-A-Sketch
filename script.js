@@ -7,7 +7,6 @@ const rgbBtn = document.querySelector('#colorPicker');
 const blckBtn = document.querySelector('#black-btn');
 const randomClr = document.querySelector('#rndmClrBtn');
 
-let opacity = '100%';
 let color = '#000000';
 
 
@@ -85,7 +84,7 @@ blckBtn.addEventListener('click',()=>{;
 
 
 function getRandomRGB() {
-  const r = Math.floor(Math.random() * 256); // 0–255
+  const r = Math.floor(Math.random() * 256); 
   const g = Math.floor(Math.random() * 256);
   const b = Math.floor(Math.random() * 256);
   return `rgb(${r}, ${g}, ${b})`;
